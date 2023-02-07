@@ -19,6 +19,10 @@ class Graphe:
                 v.append(i)
         return v
 
+    def afficher(self):
+        for i in self.adj:
+            print(self.voisins(i))
+
 if __name__ == '__main__':
     g1 = Graphe(4)
     g1.ajouter_arete(0, 1)
@@ -33,4 +37,5 @@ if __name__ == '__main__':
     g2.adj= L
     print(g2.voisins(1))
 
+    print(g1.afficher())
             

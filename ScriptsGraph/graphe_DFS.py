@@ -6,4 +6,4 @@ def parcours_profondeur(g, s, vus):
             parcours_profondeur(g, v, vus)
     return vus
 
-
+    

@@ -1,0 +1,2 @@
+on applique dijkstra
+result: A,F,G,L
